@@ -1,0 +1,7 @@
+﻿{
+  "pack": {
+    "pack_format": 42,
+    "supported_formats": [16,999],
+    "description":"整合包任务需求资源包"
+  }
+}

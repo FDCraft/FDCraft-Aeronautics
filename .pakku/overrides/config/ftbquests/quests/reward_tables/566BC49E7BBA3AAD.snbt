@@ -1,0 +1,91 @@
+{
+	icon: {
+		id: "create:andesite_alloy"
+	}
+	id: "566BC49E7BBA3AAD"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 16
+			id: "18DE5BB9C2D0C3A8"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 128
+			id: "57CBDEE7A90FC977"
+			item: {
+				count: 1
+				id: "minecraft:andesite"
+			}
+			weight: 0.6f
+		}
+		{
+			count: 16
+			id: "7770973C69840F2A"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			weight: 0.4f
+		}
+		{
+			count: 64
+			id: "2039C29A10C369B3"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 32
+			id: "1EF2019CF21E6578"
+			item: {
+				count: 1
+				id: "minecraft:quartz"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 64
+			id: "30BD7946CF623355"
+			item: {
+				count: 1
+				id: "minecraft:stripped_oak_log"
+			}
+			weight: 0.4f
+		}
+		{
+			count: 4
+			id: "5B428AC8608A5CF6"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 48
+			id: "58792B8C260A306F"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 16
+			id: "75069E70625FAB62"
+			item: {
+				count: 1
+				id: "create:zinc_ingot"
+			}
+			weight: 0.5f
+		}
+	]
+}

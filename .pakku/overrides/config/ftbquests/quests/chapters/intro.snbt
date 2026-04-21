@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "intro"
+	group: ""
+	id: "6001249E10CBD524"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6B7200323CE89A5A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25BAAC1D371304EB"
+				table_id: 6227287094729521837L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7F71D54DC8DF87D6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "create:brass_hand"
+			}
+			id: "6D9916C069F8C992"
+			tasks: [{
+				id: "7AA3F9F14D0931C4"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+}
