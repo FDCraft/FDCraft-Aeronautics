@@ -45,44 +45,6 @@
             ]
         },
         {
-            "pakku_id": "HttSJahdLqnY4OnA",
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "acceleratedrendering"
-            },
-            "name": {
-                "modrinth": "Accelerated Rendering"
-            },
-            "id": {
-                "modrinth": "DfECZO3a"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "acceleratedrendering-1.0.8-1.21.1-alpha.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "alpha",
-                    "url": "https://cdn.modrinth.com/data/DfECZO3a/versions/cNOung9q/acceleratedrendering-1.0.8-1.21.1-alpha.jar",
-                    "id": "cNOung9q",
-                    "parent_id": "DfECZO3a",
-                    "hashes": {
-                        "sha512": "c334b8c1fe202443142f1bdbbbde6fcd0a7b5a9a3765e3aa2c2ec7249b178a7c124b0459236fcc185932ed5bcaf8be2154afa07a5c3af6a1ac4b79a433e8d1e5",
-                        "sha1": "279b0b37f073654f23734dd6bc3870242d952405"
-                    },
-                    "required_dependencies": [],
-                    "size": 471965,
-                    "date_published": "2025-12-17T05:25:25.393399Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "flQj9HFl1hHGIndV",
             "type": "MOD",
             "side": "BOTH",
