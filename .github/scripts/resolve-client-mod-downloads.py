@@ -12,20 +12,68 @@ import pathlib
 import sys
 
 
+def _read_side_overrides(pakku_path: pathlib.Path) -> dict[str, str]:
+    """Read side overrides from pakku.json (projects.<slug>.side)."""
+    if not pakku_path.is_file():
+        return {}
+
+    try:
+        pakku = json.loads(pakku_path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+
+    projects = pakku.get("projects")
+    if not isinstance(projects, dict):
+        return {}
+
+    overrides: dict[str, str] = {}
+    for slug, config in projects.items():
+        if not isinstance(slug, str) or not isinstance(config, dict):
+            continue
+        side = config.get("side")
+        if isinstance(side, str) and side:
+            overrides[slug] = side.upper()
+
+    return overrides
+
+
+def _get_project_slug(project: dict) -> str | None:
+    slug = project.get("slug")
+    if not isinstance(slug, dict):
+        return None
+
+    # Prefer modrinth slug first to match current pack configuration habits.
+    preferred = slug.get("modrinth")
+    if isinstance(preferred, str) and preferred:
+        return preferred
+
+    for value in slug.values():
+        if isinstance(value, str) and value:
+            return value
+
+    return None
+
+
 def main() -> int:
-    if len(sys.argv) != 3:
-        print("Usage: resolve-client-mod-downloads.py <lockfile-path> <output-list-path>")
+    if len(sys.argv) != 4:
+        print("Usage: resolve-client-mod-downloads.py <lockfile-path> <pakku-json-path> <output-list-path>")
         return 1
 
     lock_path = pathlib.Path(sys.argv[1])
-    out_path = pathlib.Path(sys.argv[2])
+    pakku_path = pathlib.Path(sys.argv[2])
+    out_path = pathlib.Path(sys.argv[3])
 
     if not lock_path.is_file():
         print(f"Lockfile not found: {lock_path}")
         return 1
 
+    if not pakku_path.is_file():
+        print(f"Pakku config not found: {pakku_path}")
+        return 1
+
     lock = json.loads(lock_path.read_text(encoding="utf-8"))
     projects = lock.get("projects", [])
+    side_overrides = _read_side_overrides(pakku_path)
 
     side_allowed = {"BOTH", "CLIENT"}
     priority = {"curseforge": 0, "modrinth": 1}
@@ -38,6 +86,9 @@ def main() -> int:
             continue
 
         side = str(project.get("side", "")).upper()
+        project_slug = _get_project_slug(project)
+        if project_slug and project_slug in side_overrides:
+            side = side_overrides[project_slug]
         if side not in side_allowed:
             continue
 
