@@ -460,7 +460,7 @@
                 "1BKmaycyRLtxzkmi"
             ],
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "better-tab"
             },
@@ -1208,7 +1208,7 @@
         {
             "pakku_id": "wfxveHOujxosR9P8",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "configured",
                 "modrinth": "configured"
@@ -1443,7 +1443,7 @@
                 "ZWBREc1kcpzxNBmE"
             ],
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "corpse-x-curios-api-compat",
                 "modrinth": "corpse-x-curios-api-compat"
@@ -1580,7 +1580,7 @@
         {
             "pakku_id": "JPflD3Z5yRZYIrxz",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "create",
                 "modrinth": "create"
@@ -4872,7 +4872,7 @@
         {
             "pakku_id": "3UsvhRenePg7m3pU",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "geckolib",
                 "modrinth": "geckolib"
@@ -6480,69 +6480,6 @@
             ]
         },
         {
-            "pakku_id": "57YGWO2NXKbky61M",
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "curseforge": "neocontinuity",
-                "modrinth": "neocontinuity"
-            },
-            "name": {
-                "curseforge": "NeoContinuity",
-                "modrinth": "NeoContinuity"
-            },
-            "id": {
-                "curseforge": "1377279",
-                "modrinth": "t9w23vii"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "continuity-3.0.0+0.0.1+1.21.1.neoforge-all.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7178/602/continuity-3.0.0+0.0.1+1.21.1.neoforge-all.jar",
-                    "id": "7178602",
-                    "parent_id": "1377279",
-                    "hashes": {
-                        "sha1": "df5c0c092f4656277cb8f4f180c6260510665ee3",
-                        "md5": "e0af2ee46fd1f8785cd9c8f0308e9ea6"
-                    },
-                    "required_dependencies": [],
-                    "size": 1172399,
-                    "date_published": "2025-11-02T15:41:41.503Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "continuity-3.0.0+0.0.1+1.21.1.neoforge-all.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/t9w23vii/versions/ZORcYr2t/continuity-3.0.0+0.0.1+1.21.1.neoforge-all.jar",
-                    "id": "ZORcYr2t",
-                    "parent_id": "t9w23vii",
-                    "hashes": {
-                        "sha512": "f5c187ce95c60d98ccddc2565bd8c2ae514eb2545a26113347a1dc87f16b1d9e38175fbc01322d89e026e06bad3b39678675ae37b72a484bdc50db7ace1ea41a",
-                        "sha1": "df5c0c092f4656277cb8f4f180c6260510665ee3"
-                    },
-                    "required_dependencies": [],
-                    "size": 1172399,
-                    "date_published": "2025-11-02T14:07:11.242993Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "resuiV5Ml02SHxYt",
             "type": "MOD",
             "side": "BOTH",
@@ -6789,67 +6726,6 @@
                     ],
                     "size": 6091385,
                     "date_published": "2025-09-01T06:17:19.506836Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "nNhncvQElIWDJ0CM",
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "curseforge": "particle-rain",
-                "modrinth": "particle-rain"
-            },
-            "name": {
-                "curseforge": "Particle Rain",
-                "modrinth": "Particle Rain"
-            },
-            "id": {
-                "curseforge": "421897",
-                "modrinth": "nrikgvxm"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "particlerain-4.0.0-beta.9+1.21.1-neoforge.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7843/59/particlerain-4.0.0-beta.9+1.21.1-neoforge.jar",
-                    "id": "7843059",
-                    "parent_id": "421897",
-                    "hashes": {
-                        "sha1": "558e254c1c0b065fe0cc96c3a1ccf5255f3a3eca",
-                        "md5": "0163c0f5dcd662811349cdafb5edd90c"
-                    },
-                    "required_dependencies": [],
-                    "size": 602187,
-                    "date_published": "2026-03-29T21:45:01.837Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "particlerain-4.0.0-beta.9+1.21.1-neoforge.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/nrikgvxm/versions/AqUoRBvS/particlerain-4.0.0-beta.9+1.21.1-neoforge.jar",
-                    "id": "AqUoRBvS",
-                    "parent_id": "nrikgvxm",
-                    "hashes": {
-                        "sha512": "a9e904455b34125405d8f9663ffb09eb35003a2512ae515a73fc7b9a84789be7aadf61402a30932d3722d37abc5f88955ed6aaabb19037c389954ed73d8f2dce",
-                        "sha1": "558e254c1c0b065fe0cc96c3a1ccf5255f3a3eca"
-                    },
-                    "required_dependencies": [],
-                    "size": 602187,
-                    "date_published": "2026-03-29T21:45:03.885674Z"
                 }
             ]
         },
