@@ -3,5 +3,37 @@
     "version": "0.0.1",
     "overrides": [
         "config"
-    ]
+    ],
+    "projects": {
+        "baguettelib": {
+            "side": "BOTH"
+        },
+        "tectonic": {
+            "side": "BOTH"
+        },
+        "server-plus-plus": {
+            "side": "BOTH"
+        },
+        "silicone-dolls": {
+            "side": "BOTH"
+        },
+        "lithostitched": {
+            "side": "BOTH"
+        },
+        "create-liquid-fuel": {
+            "side": "BOTH"
+        },
+        "create-threaded-trains": {
+            "side": "BOTH"
+        },
+        "packagerspsic": {
+            "side": "BOTH"
+        },
+        "create-additional-logistics": {
+            "side": "BOTH"
+        },
+        "clientsort": {
+            "side": "CLIENT"
+        }
+    }
 }
