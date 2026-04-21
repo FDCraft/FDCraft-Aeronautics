@@ -136,7 +136,7 @@ jobs:
             exit 1
           fi
 
-          install -m 755 "$PORTABLEMC_BIN" "$HOME/.local/bin/portablemc"
+          install -m 777 "$PORTABLEMC_BIN" "$HOME/.local/bin/portablemc"
           "$HOME/.local/bin/portablemc" --help >/dev/null
 
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
