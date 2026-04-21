@@ -37,6 +37,15 @@
         },
         "create": {
             "side": "BOTH"
+        },
+        "better-tab": {
+            "side": "BOTH"
+        },
+        "corpse-x-curios-api-compat": {
+            "side": "BOTH"
+        },
+        "configured": {
+            "side": "BOTH"
         }
     }
 }
