@@ -1,6 +1,6 @@
 {
     "name": "FDCraft Aeronautics",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "overrides": [
         "config"
     ],
@@ -48,6 +48,9 @@
             "side": "BOTH"
         },
         "geckolib": {
+            "side": "BOTH"
+        },
+        "ageratum": {
             "side": "BOTH"
         }
     }

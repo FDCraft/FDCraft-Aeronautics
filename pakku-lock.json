@@ -2185,77 +2185,6 @@
             ]
         },
         {
-            "pakku_id": "wv5xnUom0eL0mjyD",
-            "pakku_links": [
-                "JPflD3Z5yRZYIrxz",
-                "ZS7FU3hoRJbayq3M"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "create-railways-navigator",
-                "modrinth": "create-railways-navigator"
-            },
-            "name": {
-                "curseforge": "Create Railways Navigator",
-                "modrinth": "Create Railways Navigator"
-            },
-            "id": {
-                "curseforge": "935929",
-                "modrinth": "Dq3STxps"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "createrailwaysnavigator-neoforge-1.21.1-alpha-0.9.0-C6+2.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "alpha",
-                    "url": "https://edge.forgecdn.net/files/7754/979/createrailwaysnavigator-neoforge-1.21.1-alpha-0.9.0-C6+2.jar",
-                    "id": "7754979",
-                    "parent_id": "935929",
-                    "hashes": {
-                        "sha1": "50cafde2da86ee5d881c1fb87f4ff2e1fdb9aa11",
-                        "md5": "8214103e79da1245b46f1739b30ed787"
-                    },
-                    "required_dependencies": [
-                        "328085",
-                        "946163"
-                    ],
-                    "size": 2035302,
-                    "date_published": "2026-03-14T07:55:07.870Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "createrailwaysnavigator-neoforge-1.21.1-alpha-0.9.0-C6+2.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "alpha",
-                    "url": "https://cdn.modrinth.com/data/Dq3STxps/versions/9tbJbgG6/createrailwaysnavigator-neoforge-1.21.1-alpha-0.9.0-C6+2.jar",
-                    "id": "9tbJbgG6",
-                    "parent_id": "Dq3STxps",
-                    "hashes": {
-                        "sha512": "be4464a131a7fbbdb1e5219679d4d25625e005a09ee5671a0f32d9a749ea69e533b2bf48ebf3540e72f55644d223e72826b79c5b836d58b7a8a4a11ef03673c0",
-                        "sha1": "50cafde2da86ee5d881c1fb87f4ff2e1fdb9aa11"
-                    },
-                    "required_dependencies": [
-                        "sbIsGaOV",
-                        "LNytGWDc"
-                    ],
-                    "size": 2035302,
-                    "date_published": "2026-03-14T07:55:12.310075Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "t5zLOyZDVNSQbCQL",
             "pakku_links": [
                 "JPflD3Z5yRZYIrxz",
@@ -4312,67 +4241,6 @@
                     "required_dependencies": [],
                     "size": 1044065,
                     "date_published": "2026-04-20T05:28:22.001033Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "ZS7FU3hoRJbayq3M",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "dragonlib",
-                "modrinth": "dragonlib"
-            },
-            "name": {
-                "curseforge": "DragonLib",
-                "modrinth": "DragonLib"
-            },
-            "id": {
-                "curseforge": "946163",
-                "modrinth": "sbIsGaOV"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "dragonlib-neoforge-1.21.1-beta-3.0.24.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7763/966/dragonlib-neoforge-1.21.1-beta-3.0.24.jar",
-                    "id": "7763966",
-                    "parent_id": "946163",
-                    "hashes": {
-                        "sha1": "eacbdeabe5271b46aacb4c15d9a44915ab953831",
-                        "md5": "bd9c9ce2b10a432b0b925e1f203dfe23"
-                    },
-                    "required_dependencies": [],
-                    "size": 2097048,
-                    "date_published": "2026-03-15T21:56:31.917Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "dragonlib-neoforge-1.21.1-beta-3.0.24.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/sbIsGaOV/versions/M6CMBAur/dragonlib-neoforge-1.21.1-beta-3.0.24.jar",
-                    "id": "M6CMBAur",
-                    "parent_id": "sbIsGaOV",
-                    "hashes": {
-                        "sha512": "f12aad125f79b50b8670d3100293663b482e22c819435b64867a8c8beee83e48b3c2f5a8ed60e4cad6215bfad06f8a24f23d6cded2c003d91bf32e74749f7955",
-                        "sha1": "eacbdeabe5271b46aacb4c15d9a44915ab953831"
-                    },
-                    "required_dependencies": [],
-                    "size": 2097048,
-                    "date_published": "2026-03-15T21:56:35.233456Z"
                 }
             ]
         },
@@ -6442,67 +6310,6 @@
             ]
         },
         {
-            "pakku_id": "UyUCaIQHbo2VqnPN",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "natures-compass",
-                "modrinth": "natures-compass"
-            },
-            "name": {
-                "curseforge": "Nature's Compass",
-                "modrinth": "Nature's Compass"
-            },
-            "id": {
-                "curseforge": "252848",
-                "modrinth": "fPetb5Kh"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "NaturesCompass-1.21.1-3.4.0-neoforge.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7892/954/NaturesCompass-1.21.1-3.4.0-neoforge.jar",
-                    "id": "7892954",
-                    "parent_id": "252848",
-                    "hashes": {
-                        "sha1": "e19721873bebc4dbc1674bb101af39d0ea406b95",
-                        "md5": "1cb785707bea10cfc5018fe37247963c"
-                    },
-                    "required_dependencies": [],
-                    "size": 224657,
-                    "date_published": "2026-04-08T01:40:16.107Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "NaturesCompass-1.21.1-3.4.0-neoforge.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/fPetb5Kh/versions/nFniEtJV/NaturesCompass-1.21.1-3.4.0-neoforge.jar",
-                    "id": "nFniEtJV",
-                    "parent_id": "fPetb5Kh",
-                    "hashes": {
-                        "sha512": "5314b536bcb9a594a9cf2bbd46c82468d17e1559bd6c00da9d91e96c0814f50416799a011705f0d184bd731dac3f03dec009c76fea3d02b3556a6013f9649014",
-                        "sha1": "e19721873bebc4dbc1674bb101af39d0ea406b95"
-                    },
-                    "required_dependencies": [],
-                    "size": 224657,
-                    "date_published": "2026-04-08T01:47:47.219161Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "resuiV5Ml02SHxYt",
             "type": "MOD",
             "side": "BOTH",
@@ -7633,6 +7440,67 @@
             ]
         },
         {
+            "pakku_id": "Fnpwh9CwXGsk2QEE",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "sourceblock",
+                "modrinth": "sourceblock"
+            },
+            "name": {
+                "curseforge": "SourceBlock",
+                "modrinth": "SourceBlock"
+            },
+            "id": {
+                "curseforge": "1388287",
+                "modrinth": "uGHNkiAz"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "sourceblock-1.2.0-neoforge+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7808/505/sourceblock-1.2.0-neoforge+mc1.21.1.jar",
+                    "id": "7808505",
+                    "parent_id": "1388287",
+                    "hashes": {
+                        "sha1": "c4d70e0a24f7ff7d2fdebf6895516989fa6c8d07",
+                        "md5": "7138161bd50756df63ee4d861920afce"
+                    },
+                    "required_dependencies": [],
+                    "size": 94384,
+                    "date_published": "2026-03-25T00:56:44.593Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "sourceblock-1.2.0-neoforge+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/uGHNkiAz/versions/ZBGqQUKu/sourceblock-1.2.0-neoforge+mc1.21.1.jar",
+                    "id": "ZBGqQUKu",
+                    "parent_id": "uGHNkiAz",
+                    "hashes": {
+                        "sha512": "f3c9458fc060578f0bee5b1e8ce691c283f3e7e0ccfe93c535435f42bfa9d3bd98f5378101abc2b66e1ed95c504110313b06aaea7f7893bb881e5239ffc735a9",
+                        "sha1": "c4d70e0a24f7ff7d2fdebf6895516989fa6c8d07"
+                    },
+                    "required_dependencies": [],
+                    "size": 94384,
+                    "date_published": "2026-03-25T00:57:14.887649Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "nsWTjct9fxCq1Q62",
             "type": "MOD",
             "slug": {
@@ -7706,68 +7574,44 @@
             ]
         },
         {
-            "pakku_id": "ssghnYnhhCGQQ2jq",
+            "pakku_id": "rsAC9ZFPnCKrOUfH",
             "pakku_links": [
                 "MLLKE9uwkN9tTGDm"
             ],
             "type": "MOD",
-            "side": "BOTH",
             "slug": {
-                "curseforge": "tectonic",
-                "modrinth": "tectonic"
+                "curseforge": "tectonic"
             },
             "name": {
-                "curseforge": "Tectonic",
-                "modrinth": "Tectonic"
+                "curseforge": "Tectonic"
             },
             "id": {
-                "curseforge": "686836",
-                "modrinth": "lWDHr9jE"
+                "curseforge": "686836"
             },
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "tectonic-3.0.22-neoforge-21.1.jar",
+                    "file_name": "tectonic-neoforge-1.21.1-2.4.3.jar",
                     "mc_versions": [
+                        "1.21",
                         "1.21.1"
                     ],
                     "loaders": [
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7903/156/tectonic-3.0.22-neoforge-21.1.jar",
-                    "id": "7903156",
+                    "url": "https://edge.forgecdn.net/files/6201/964/tectonic-neoforge-1.21.1-2.4.3.jar",
+                    "id": "6201964",
                     "parent_id": "686836",
                     "hashes": {
-                        "sha1": "12b0f4af2a2eaae3d9e9cb1a8a3fd1ca7e610314",
-                        "md5": "b0659af9b55f8aff56aa7f77d7d9709f"
-                    },
-                    "required_dependencies": [],
-                    "size": 337253,
-                    "date_published": "2026-04-10T04:58:59.533Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "tectonic-3.0.22-neoforge-21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/lWDHr9jE/versions/iCGkqnnx/tectonic-3.0.22-neoforge-21.1.jar",
-                    "id": "iCGkqnnx",
-                    "parent_id": "lWDHr9jE",
-                    "hashes": {
-                        "sha512": "a02d3f2bfd8aa099512005df23b45ec723694c397b4224a69ffd47b41cd06bb3d56a0f10bbfd81e8159e0fc55f61d0729656f91231410a74ed55e6fc16fd18ec",
-                        "sha1": "12b0f4af2a2eaae3d9e9cb1a8a3fd1ca7e610314"
+                        "sha1": "e7d10a270c86b373d61a53f1d4877642cc7e86a2",
+                        "md5": "6c4640f237cbe3d32d63bca8297dcef9"
                     },
                     "required_dependencies": [
-                        "XaDC71GB"
+                        "936015"
                     ],
-                    "size": 337253,
-                    "date_published": "2026-04-10T04:58:58.985404Z"
+                    "size": 223655,
+                    "date_published": "2025-02-17T03:39:49.767Z"
                 }
             ]
         },
