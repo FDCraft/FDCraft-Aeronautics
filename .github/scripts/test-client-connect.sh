@@ -170,7 +170,6 @@ echo "Server started, launching client"
 popd >/dev/null
 
 # ===== Module: Client Launch =====
-chmod 777 portablemc
 portablemc \
   --main-dir "$CLIENT_DIR/.minecraft" \
   start "$selected_target" \
