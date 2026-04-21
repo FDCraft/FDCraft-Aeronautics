@@ -5,6 +5,7 @@ shopt -s dotglob
 # ===== Module: Runtime Configuration =====
 SERVER_DIR="${SERVER_DIR:-server}"
 CLIENT_DIR="${CLIENT_DIR:-client}"
+CLIENT_JVM="${CLIENT_JVM:-server/user_jvm_args.txt}"
 LOCKFILE_PATH="${LOCKFILE_PATH:-pakku-lock.json}"
 USERNAME="${CLIENT_USERNAME:-Dev}"
 SERVER_HOST="${SERVER_HOST:-localhost}"
@@ -173,7 +174,7 @@ portablemc \
   --main-dir "$CLIENT_DIR/.minecraft" \
   start "$selected_target" \
   -u "$USERNAME" \
-  --jvm "-Xmx8G" \
+  --jvm "$CLIENT_JVM" \
   --join-server "$SERVER_HOST" \
   --join-server-port "$SERVER_PORT" > "$CLIENT_DIR/client.log" 2>&1 &
 

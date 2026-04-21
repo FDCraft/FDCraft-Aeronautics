@@ -5,8 +5,7 @@ server/
 forge-*-installer.jar
 mrpack-install-windows.exe
 mrpack-install-linux
-portablemc-*
-portablemc-*.exe
+portablemc*
 reference/
 old-docs/
 python-tools/chapters
