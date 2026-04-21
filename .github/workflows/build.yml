@@ -154,5 +154,6 @@ jobs:
 
       - name: Run Minecraft client and validate server connection
         run: |
-          chmod +x ./.github/scripts/test-client-connect.sh
-          ./.github/scripts/test-client-connect.sh
+          chmod +x ./.github/scripts/test-server.sh
+          cd server
+          ../.github/scripts/test-server.sh
