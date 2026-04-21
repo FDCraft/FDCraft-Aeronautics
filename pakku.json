@@ -46,6 +46,9 @@
         },
         "configured": {
             "side": "BOTH"
+        },
+        "geckolib": {
+            "side": "BOTH"
         }
     }
 }
