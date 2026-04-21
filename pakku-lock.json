@@ -7790,7 +7790,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Tsuki-1.1.0.jar",
+                    "file_name": "Tsuki-1.1.1.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -7798,19 +7798,19 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7950/155/Tsuki-1.1.0.jar",
-                    "id": "7950155",
+                    "url": "https://edge.forgecdn.net/files/7959/636/Tsuki-1.1.1.jar",
+                    "id": "7959636",
                     "parent_id": "1508022",
                     "hashes": {
-                        "sha1": "2f8dda7595a5f7b0e86aa9c1af3da9d3611ebdf8",
-                        "md5": "6873ebabb0958d93af003b33ecfe4d8f"
+                        "sha1": "18f5722bba758b88aa8c02d56f932be29e241a52",
+                        "md5": "868d4311f07c336eb39adbac6f59129f"
                     },
                     "required_dependencies": [
                         "368098",
                         "388172"
                     ],
-                    "size": 9016496,
-                    "date_published": "2026-04-19T13:08:31.713Z"
+                    "size": 9072487,
+                    "date_published": "2026-04-21T07:11:03.273Z"
                 }
             ]
         },
