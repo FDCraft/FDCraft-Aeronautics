@@ -1,5 +1,6 @@
 build/
 server/
+client/
 *.mrpack
 
 forge-*-installer.jar
