@@ -1,0 +1,16 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "minecraft:moss_block"
+        },
+        {
+            "item": "minecraft:moss_block"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:dirt"
+        }
+    ]
+}

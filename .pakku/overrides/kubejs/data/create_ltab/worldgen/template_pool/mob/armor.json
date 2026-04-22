@@ -1,0 +1,42 @@
+{
+  "name": "create_ltab:mob/armor",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{	
+      "weight": 2,
+      "element": {
+        "location": "create_ltab:mob/core_zombie",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 2,
+      "element": {
+        "location": "create_ltab:mob/core_skeleton",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 2,
+      "element": {
+        "location": "create_ltab:mob/core_whitch",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 1,
+      "element": {
+        "location": "create_ltab:mob/crafter_zombie",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

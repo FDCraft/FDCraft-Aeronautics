@@ -1,0 +1,45 @@
+{
+    "type": "create:mixing",
+    "heat_requirement": "superheated",
+    "ingredients": [
+        {
+            "item": "minecraft:gilded_blackstone"
+        },
+        {
+            "item": "minecraft:gilded_blackstone"
+        },
+        {
+            "item": "minecraft:netherrack"
+        },
+        {
+            "item": "minecraft:netherrack"
+        },
+        {
+            "item": "minecraft:basalt"
+        },
+        {
+            "item": "minecraft:basalt"
+        },
+        {
+            "item": "minecraft:ancient_debris"
+        },
+        {
+            "item": "minecraft:ancient_debris"
+        },
+        {
+            "type": "fluid_stack",
+            "amount": 1000,
+            "fluid": "minecraft:lava"
+        }
+    ],
+    "results": [
+        {
+            "count": 2,
+            "id": "minecraft:ancient_debris"
+        },
+        {
+            "chance": 0.5,
+            "id": "minecraft:ancient_debris"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "item": "minecraft:soul_sand"
+        }
+    ],
+    "results": [
+        {
+            "id": "minecraft:soul_soil"
+        }
+    ]
+}

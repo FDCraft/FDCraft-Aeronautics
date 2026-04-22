@@ -1,0 +1,24 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "create:limestone"
+    }
+  ],
+  "processing_time": 250,
+  "results": [
+    {
+      "chance": 0.75,
+      "id": "minecraft:lapis_lazuli"
+    },
+    {
+      "chance": 1,
+      "id": "minecraft:bone_meal"
+    }
+    ,
+    {
+      "chance": 0.75,
+      "id": "minecraft:bone_meal"
+    }
+  ]
+}
