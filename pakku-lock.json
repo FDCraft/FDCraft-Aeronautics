@@ -665,6 +665,67 @@
             ]
         },
         {
+            "pakku_id": "akeFPAOMBaJ7wodQ",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "carry-on",
+                "modrinth": "carry-on"
+            },
+            "name": {
+                "curseforge": "Carry On",
+                "modrinth": "Carry On"
+            },
+            "id": {
+                "curseforge": "274259",
+                "modrinth": "joEfVgkn"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "carryon-neoforge-1.21.1-2.2.4.4.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7393/892/carryon-neoforge-1.21.1-2.2.4.4.jar",
+                    "id": "7393892",
+                    "parent_id": "274259",
+                    "hashes": {
+                        "sha1": "774bf57a199784c35e74f2d619d6001c87185a11",
+                        "md5": "116381c8900494997eac5a2c1bf42348"
+                    },
+                    "required_dependencies": [],
+                    "size": 357489,
+                    "date_published": "2025-12-29T20:17:48.730Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "carryon-neoforge-1.21.1-2.2.4.4.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/joEfVgkn/versions/cgZi7nC7/carryon-neoforge-1.21.1-2.2.4.4.jar",
+                    "id": "cgZi7nC7",
+                    "parent_id": "joEfVgkn",
+                    "hashes": {
+                        "sha512": "8b78ddc55ce6e28d4457dadb5aca4cd32e16d2db3c395276993e67c6acc108ced55e3e3d9a01aa5bf1da0d4fccab6183ba62acc1421054c0b2ecae9bd03cabf6",
+                        "sha1": "774bf57a199784c35e74f2d619d6001c87185a11"
+                    },
+                    "required_dependencies": [],
+                    "size": 357489,
+                    "date_published": "2025-12-29T20:19:55.352928Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "dS54nQgcsdBlj2fn",
             "type": "MOD",
             "slug": {
