@@ -108,7 +108,7 @@
         {
             "pakku_id": "s4bsztJcH35uBqKJ",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "ageratum",
                 "modrinth": "ageratum"
@@ -4245,6 +4245,67 @@
             ]
         },
         {
+            "pakku_id": "uhFTWJ0j9PwAZluH",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "easy-mob-spawn-control",
+                "modrinth": "easy-mob-spawn-control"
+            },
+            "name": {
+                "curseforge": "Easy Mob Spawn Control - edit spawn rate & mob cap, disable bad mobs",
+                "modrinth": "Easy Mob Spawn Control - spawn rate, mob cap, disable bad mobs"
+            },
+            "id": {
+                "curseforge": "1489509",
+                "modrinth": "pTXV6gwq"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "easy_mob_spawn_control-1.1.5.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7959/969/easy_mob_spawn_control-1.1.5.jar",
+                    "id": "7959969",
+                    "parent_id": "1489509",
+                    "hashes": {
+                        "sha1": "8ebd62d05d55d6900f51256c97602c354a8415a0",
+                        "md5": "cbb353dcdd14b482e77e07c2c970120d"
+                    },
+                    "required_dependencies": [],
+                    "size": 68979,
+                    "date_published": "2026-04-21T09:05:20.580Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "easy_mob_spawn_control-1.1.5.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/pTXV6gwq/versions/HN7HfkrT/easy_mob_spawn_control-1.1.5.jar",
+                    "id": "HN7HfkrT",
+                    "parent_id": "pTXV6gwq",
+                    "hashes": {
+                        "sha512": "f01cedb316f9eda07734766f0daadf5c471d15a76be686deeedd788c21fcb460d3f3e7ac432b766478472fa78b4e44ee24e4c7a086873112f320e8ccf96715fb",
+                        "sha1": "8ebd62d05d55d6900f51256c97602c354a8415a0"
+                    },
+                    "required_dependencies": [],
+                    "size": 68979,
+                    "date_published": "2026-04-21T09:08:11.420567Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "tcRLmbPDoOB0e0D7",
             "pakku_links": [
                 "1PyUjpcYZQPurzsw",
@@ -5608,6 +5669,76 @@
             ]
         },
         {
+            "pakku_id": "GdoPdO9EaYSDppZP",
+            "pakku_links": [
+                "31aXJcDaDDT3q7o8"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "kubejs",
+                "modrinth": "kubejs"
+            },
+            "name": {
+                "curseforge": "KubeJS",
+                "modrinth": "KubeJS"
+            },
+            "id": {
+                "curseforge": "238086",
+                "modrinth": "umyGl7zF"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kubejs-neoforge-2101.7.2-build.348.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7278/501/kubejs-neoforge-2101.7.2-build.348.jar",
+                    "id": "7278501",
+                    "parent_id": "238086",
+                    "hashes": {
+                        "sha1": "75f96b2e4157c0efdbfd9f6271d080fb6921aaf4",
+                        "md5": "e53316dd5b84d571d3e753c213102336"
+                    },
+                    "required_dependencies": [
+                        "416294"
+                    ],
+                    "size": 2240610,
+                    "date_published": "2025-11-30T15:42:41.300Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "kubejs-neoforge-2101.7.2-build.348.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/umyGl7zF/versions/8nuqyxbw/kubejs-neoforge-2101.7.2-build.348.jar",
+                    "id": "8nuqyxbw",
+                    "parent_id": "umyGl7zF",
+                    "hashes": {
+                        "sha512": "63d6f8d96347c656c1427ee5e8af20a60ab2a59458f3449eb2a7c2cce18cc4b49374aef607f97c9566181ec077cff937d21084cc400e40d28dd46b34f32a3296",
+                        "sha1": "d3b606167d77dd3c561e682b7e373a01a369cc95"
+                    },
+                    "required_dependencies": [
+                        "sk9knFPE"
+                    ],
+                    "size": 2240610,
+                    "date_published": "2025-11-30T15:42:52.777594Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "MLLKE9uwkN9tTGDm",
             "type": "MOD",
             "side": "BOTH",
@@ -6763,6 +6894,79 @@
             ]
         },
         {
+            "pakku_id": "31aXJcDaDDT3q7o8",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "rhino",
+                "modrinth": "rhino"
+            },
+            "name": {
+                "curseforge": "Rhino",
+                "modrinth": "Rhino"
+            },
+            "id": {
+                "curseforge": "416294",
+                "modrinth": "sk9knFPE"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "rhino-2101.2.7-build.81.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.4",
+                        "1.21.3",
+                        "1.21.1",
+                        "1.21.2"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7104/526/rhino-2101.2.7-build.81.jar",
+                    "id": "7104526",
+                    "parent_id": "416294",
+                    "hashes": {
+                        "sha1": "5dcc80079095706645d567353095297948a41eea",
+                        "md5": "050aad61e018a810b0f183ad50e084c6"
+                    },
+                    "required_dependencies": [],
+                    "size": 882032,
+                    "date_published": "2025-10-13T22:22:58.843Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "rhino-2101.2.7-build.81.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/sk9knFPE/versions/ZdLtebKH/rhino-2101.2.7-build.81.jar",
+                    "id": "ZdLtebKH",
+                    "parent_id": "sk9knFPE",
+                    "hashes": {
+                        "sha512": "83a4f35cce9902b7175700aeccb8519716ff407dff2a936aa0215e162d81421d109c95f82ff88a84ccbe197caee0a4a76ca44d9c8b8ce954162596d7ede18c23",
+                        "sha1": "480235a9f7749f68ce6fec3b9c3cac3428b92a4a"
+                    },
+                    "required_dependencies": [],
+                    "size": 882033,
+                    "date_published": "2025-10-13T22:23:08.213734Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ObpUNgOWz94HVTtk",
             "pakku_links": [
                 "dAsGdoQeP7wJRdyB"
@@ -7579,6 +7783,7 @@
                 "MLLKE9uwkN9tTGDm"
             ],
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "tectonic"
             },
@@ -7588,6 +7793,7 @@
             "id": {
                 "curseforge": "686836"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",

@@ -9,7 +9,8 @@
             "side": "BOTH"
         },
         "tectonic": {
-            "side": "BOTH"
+            "side": "BOTH",
+            "update_strategy": "NONE"
         },
         "server-plus-plus": {
             "side": "BOTH"
