@@ -1,6 +1,6 @@
 {
     "name": "FDCraft Aeronautics",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "overrides": [
         "config"
     ],
@@ -54,5 +54,6 @@
         "ageratum": {
             "side": "BOTH"
         }
-    }
+    },
+    "export_server_side_projects_to_client": true
 }

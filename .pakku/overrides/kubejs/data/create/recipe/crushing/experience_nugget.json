@@ -2,13 +2,13 @@
   "type": "create:crushing",
   "ingredients": [
     {
-      "tag": "forge:gems/quartz"
+      "tag": "c:gems/quartz"
     }
   ],
   "results": [
     {
-      "item": "create:experience_nugget"
+      "id": "create:experience_nugget"
     }
   ],
-  "processingTime": 100
+  "processing_time": 100
 }
