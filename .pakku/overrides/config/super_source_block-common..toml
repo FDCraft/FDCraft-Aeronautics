@@ -1,0 +1,32 @@
+#How many buckets (B) of one fluid are required for Empty Fluid Source Block to transform.
+# Default: 512
+# Range: 1 ~ 2147483
+empty_to_super_buckets = 512
+#How many items of one type are required for Empty Item Source Block to transform.
+# Default: 4096
+# Range: > 1
+empty_item_to_super_items = 4096
+#If true, any fluid can transform empty fluid source when amount threshold is reached.
+allow_any_fluid_source = true
+#If true, any item can transform empty item source when amount threshold is reached.
+allow_any_item_source = true
+#If true, super fluid source outputs Integer.MAX_VALUE per transfer.
+super_fluid_use_integer_max_output = true
+#If true, super item source outputs Integer.MAX_VALUE items per transfer attempt.
+super_item_use_integer_max_output = false
+#Output interval of super fluid source in ticks.
+# Default: 1
+# Range: > 1
+super_fluid_output_interval_ticks = 1
+#Output interval of super item source in ticks.
+# Default: 20
+# Range: > 1
+super_item_output_interval_ticks = 20
+#When super_fluid_use_integer_max_output is false, this is the fluid output amount per tick in mB.
+# Default: 256000
+# Range: > 1
+super_fluid_output_amount = 256000
+#When super_item_use_integer_max_output is false, this is the item output amount per tick.
+# Default: 1
+# Range: > 1
+super_item_output_amount = 1

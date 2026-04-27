@@ -7760,7 +7760,7 @@
                 "XWxrjvmB7dUz4BRh"
             ],
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "siliconedolls",
                 "modrinth": "silicone-dolls"
@@ -8875,6 +8875,42 @@
                     "required_dependencies": [],
                     "size": 11904503,
                     "date_published": "2026-04-13T03:50:00.298655Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "iv3sTn37T9j33NeQ",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "super-source-block"
+            },
+            "name": {
+                "curseforge": "Super Source Block"
+            },
+            "id": {
+                "curseforge": "1526757"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "super_source_block-1.0.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7999/871/super_source_block-1.0.0.jar",
+                    "id": "7999871",
+                    "parent_id": "1526757",
+                    "hashes": {
+                        "sha1": "8006fd37092edcb6a40c399a4c44faebde15d60a",
+                        "md5": "2301e0068765115fb90f38f2d0a95e01"
+                    },
+                    "required_dependencies": [],
+                    "size": 86322,
+                    "date_published": "2026-04-27T11:36:56.570Z"
                 }
             ]
         },
