@@ -5142,6 +5142,67 @@
             ]
         },
         {
+            "pakku_id": "7FyOyrcsmTRKcZEt",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "guideme",
+                "modrinth": "guideme"
+            },
+            "name": {
+                "curseforge": "GuideME",
+                "modrinth": "GuideME"
+            },
+            "id": {
+                "curseforge": "1173950",
+                "modrinth": "Ck4E7v7R"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "guideme-21.1.15.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7127/444/guideme-21.1.15.jar",
+                    "id": "7127444",
+                    "parent_id": "1173950",
+                    "hashes": {
+                        "sha1": "924c6bca566ee83789a4fd1ce72ea3ddfdf0f5e5",
+                        "md5": "e155422cf43d14722de051272137c294"
+                    },
+                    "required_dependencies": [],
+                    "size": 9309183,
+                    "date_published": "2025-10-19T22:31:21.503Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "guideme-21.1.15.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Ck4E7v7R/versions/ILW6vM7o/guideme-21.1.15.jar",
+                    "id": "ILW6vM7o",
+                    "parent_id": "Ck4E7v7R",
+                    "hashes": {
+                        "sha512": "4a35b2d9ae3958cb9e152757223b0fc0f85ed2c55da2c3bb773b9a353cf5db15e4294ac2b6d897c0d7c82674dd86c084dd2e35fb80b5bcf92067735c03288edc",
+                        "sha1": "924c6bca566ee83789a4fd1ce72ea3ddfdf0f5e5"
+                    },
+                    "required_dependencies": [],
+                    "size": 9309183,
+                    "date_published": "2025-10-19T22:31:24.388133Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "oqNrLdnFvvQbZMVf",
             "type": "MOD",
             "side": "CLIENT",
